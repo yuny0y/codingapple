@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="main.css"> 
+</head>
+<body>
+    <div class="alert-box" id ="alert">
+        알림창~~
+        <button onclick="openButton('none')">닫기</button></div>
+    <button onclick="openButton('block');">버튼</button>
+    
+    <script>
+        function openButton(hi) {
+            document.getElementById('alert').style.display='hi';
+        };
+        // function closeButton(bye) {
+        //     document.getElementById('alert').style.display='bye';
+        // };
+
+        // function을 사용해서 버튼을 동작시키면 위에 코딩도 짧고 좋쥬~
+        // 파라미터 사용하면 함수가 하나면 재사용 하기 좋아지쥬~
+
+        // function plus(x,y){
+        // return x+ y
+        // }; console.log(plus(1,2));
+        // // 연산도 가능 하지여~
+    </script>
+</body>
+</html>
